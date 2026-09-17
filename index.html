@@ -31,11 +31,9 @@
     }
     .wrap { max-width: 560px; margin: 0 auto; padding: 48px 20px 64px; }
     .mark {
-      width: 72px; height: 72px; border-radius: 17px; background: var(--card);
-      border: 1px solid var(--line);
-      display: flex; align-items: center; justify-content: center; gap: 3px;
+      width: 88px; height: 88px; border-radius: 20px;
+      border: 1px solid var(--line); display: block;
     }
-    .mark span { width: 4px; border-radius: 2px; background: var(--ink); }
     h1 { font-size: 34px; letter-spacing: -0.4px; margin: 20px 0 6px; }
     .tagline { color: var(--muted); font-size: 17px; margin: 0 0 28px; line-height: 1.45; }
     .card {
@@ -56,9 +54,7 @@
 </head>
 <body>
   <div class="wrap">
-    <div class="mark" aria-hidden="true">
-      <span style="height: 14px"></span><span style="height: 26px"></span><span style="height: 40px"></span><span style="height: 30px"></span><span style="height: 44px"></span><span style="height: 30px"></span><span style="height: 40px"></span><span style="height: 26px"></span><span style="height: 14px"></span>
-    </div>
+    <img class="mark" src="icon.png" alt="Strata app icon">
     <h1>Strata</h1>
     <p class="tagline">A multi-track recorder for iPhone and iPad. Record with unlimited tracks, shape each one with effects, and export your mix — projects live in iCloud Drive.</p>
 
